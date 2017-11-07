@@ -32,6 +32,7 @@ services:
       - GW_MQTT_SERVER=tcp://mqttbroker:1883
       - AS_SERVER=loraappserver:8001
       - LOG_NODE_FRAMES=true
+      - GW_SERVER_JWT_SECRET=falsdfjalk2342402938sdfosiduf9872345
     links:
       - mqttbroker
       - redis
