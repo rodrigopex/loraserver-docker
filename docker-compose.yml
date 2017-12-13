@@ -42,7 +42,7 @@ services:
       - redis
       - postgres
   loraappserver:
-    image: rodrigopex/lora-app-server:0.14.0
+    image: rodrigopex/lora-app-server:0.12.0
     ports:
       - "443:8080"
     volumes:
