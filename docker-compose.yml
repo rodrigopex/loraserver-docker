@@ -21,7 +21,7 @@ services:
       - LORAAPPSERVER_DB_USER=loraserver_as
       - LORAAPPSERVER_DB_PASSWORD=dbpassword
   loraserver:
-    image: rodrigopex/loraserver:0.22.0
+    image: rodrigopex/loraserver:0.19.1
     environment:
       - NET_ID=010203
       - BAND=US_902_928
